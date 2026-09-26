@@ -1,0 +1,22 @@
+# Core Scientific Computing
+numpy>=1.23.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning & Preprocessing
+scikit-learn>=1.2.0
+imbalanced-learn>=0.10.0
+joblib>=1.2.0
+
+# Deep Learning
+tensorflow>=2.12.0
+
+# Explainable AI
+shap>=0.42.0
+
+# Notebook Environment
+jupyter>=1.0.0
+ipykernel>=6.20.0

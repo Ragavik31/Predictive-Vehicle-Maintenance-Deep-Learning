@@ -1,0 +1,63 @@
+{
+    "base_features": [
+        "Make_and_Model",
+        "Vehicle_Type",
+        "Year_of_Manufacture",
+        "Road_Conditions",
+        "Weather_Conditions",
+        "Route_Info",
+        "Usage_Hours",
+        "Load_Capacity",
+        "Actual_Load",
+        "Engine_Temperature",
+        "Fuel_Consumption",
+        "Battery_Status",
+        "Oil_Quality",
+        "Vibration_Levels",
+        "Tire_Pressure",
+        "Failure_History",
+        "Anomalies_Detected",
+        "Diagnostic_Trouble_Code_Count",
+        "CAN_Message_Rate_Hz",
+        "Sensor_Packet_Loss_Rate"
+    ],
+    "engineered_road_features": [
+        "Load_Utilization",
+        "Road_Load_Interaction",
+        "Road_Usage_Interaction"
+    ],
+    "all_features": [
+        "Make_and_Model",
+        "Vehicle_Type",
+        "Year_of_Manufacture",
+        "Road_Conditions",
+        "Weather_Conditions",
+        "Route_Info",
+        "Usage_Hours",
+        "Load_Capacity",
+        "Actual_Load",
+        "Engine_Temperature",
+        "Fuel_Consumption",
+        "Battery_Status",
+        "Oil_Quality",
+        "Vibration_Levels",
+        "Tire_Pressure",
+        "Failure_History",
+        "Anomalies_Detected",
+        "Diagnostic_Trouble_Code_Count",
+        "CAN_Message_Rate_Hz",
+        "Sensor_Packet_Loss_Rate",
+        "Load_Utilization",
+        "Road_Load_Interaction",
+        "Road_Usage_Interaction"
+    ],
+    "target": "Maintenance_Required",
+    "classification_threshold": 0.5,
+    "final_metrics": {
+        "accuracy": 0.9408,
+        "precision": 0.9406,
+        "recall": 0.8721,
+        "f1_score": 0.9051,
+        "roc_auc": 0.9237
+    }
+}

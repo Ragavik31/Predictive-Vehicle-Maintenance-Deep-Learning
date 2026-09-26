@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# macOS / Windows OS artifacts
+.DS_Store
+Thumbs.db
